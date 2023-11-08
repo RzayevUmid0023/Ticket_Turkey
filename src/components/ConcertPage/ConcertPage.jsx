@@ -1,8 +1,7 @@
 // Birinci kod
 import React from 'react'
 import styles from './ConcertPage.module.css'
-import Banner from '../../photo/Consertpage/Bannervideo.mp4'
-import tickets from '../../tickets'
+import tickets from '../../tickets.json'
 import { Link } from 'react-router-dom'
 
 function ConcertPage() {
@@ -11,7 +10,7 @@ function ConcertPage() {
         <div className={styles.Section}>
 
             <div className={styles.Banner}>
-                <video src={ Banner }  className={styles.Banner_video} autoPlay muted loop={true}/>
+                <video src={ 'https://www.shutterstock.com/shutterstock/videos/1080091688/preview/stock-footage-dj-plays-disco-music-on-turntable-at-night-club-scene-partying-joyful-crowd-moves-in-hip-hop.webm' }  className={styles.Banner_video} autoPlay muted loop={true}/>
                 <span></span>
             </div>
 
