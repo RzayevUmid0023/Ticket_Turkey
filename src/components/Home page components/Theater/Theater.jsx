@@ -1,18 +1,18 @@
 import React from 'react'
-import styles from './Concer.module.css'
+import styles from './Theater.module.css'
 import '../../../App.css'
-import Data from './concertData.json'
+import Data from './TheaterData.json'
 
 
 
-function Concert() {
+function Theater() {
   return (
     <>
 
     <div className={styles.container}>
         <div className={styles.container_main}>
             <div className={styles.top}>
-                <h1>Konserler</h1>
+                <h1>Tiatro Gösterileri</h1>
             </div>
 
 
@@ -128,5 +128,5 @@ function Concert() {
   )
 }
 
-export default Concert;
+export default Theater;
  

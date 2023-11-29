@@ -120,7 +120,7 @@
 
 /*------------------------------------------ media query ----------------------------------*/
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
 
    
 
@@ -151,8 +151,8 @@
          width: 300px;
         
          backdrop-filter: blur(20px);
-        
-         box-shadow: 5px 1px 6px white;
+        background-color: black;
+         box-shadow: 5px 1px 6px rgb(3, 0, 0);
       }
 
 
@@ -237,5 +237,12 @@
 
 
     
+}
+ @media screen and (max-width: 500px) {
+   .mob_navbar{
+      width: 90%;
+      margin: auto;
+      margin-right: 5px;
+   }
 }
 

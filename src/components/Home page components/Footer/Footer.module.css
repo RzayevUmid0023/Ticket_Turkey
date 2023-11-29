@@ -1,0 +1,161 @@
+/* Ana bölüm stilleri */
+.main {
+    width: 100%;
+    padding: 60px 100px;
+    display: flex;
+    justify-content: space-between; 
+    background-color: #e6e6e6;
+}
+
+/* Sol bölüm stilleri */
+.mainLeft {
+    display: flex;
+}
+
+/* Sol bölüm başlıkları (h2) */
+.mainLeft h2 {
+    font-size: 20px;
+    color: #484f56;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+/* Sol bölüm paragrafları (p) */
+.mainLeft p {
+    font-size: 16px;
+    color: #484f56;
+    font-weight: 400;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+/* Sol bölümdeki ilk bölüm */
+.mainLeft_first {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Sol bölümdeki ilk bölümün alt kısmındaki resim */
+.mainLeft_first_bottom img {
+    height: 40px;
+    margin-top: 100px;
+}
+
+/* Sol bölümdeki ilk bölümün alt kısmındaki paragraf */
+.mainLeft_first_bottom_p {
+    font-size: 13px !important;
+    padding-top: 10px;
+    cursor: auto !important;
+}
+
+/* Sol bölümdeki ikinci bölüm */
+.mainLeft_second {
+    padding: 20px;
+}
+
+/* Sağ bölüm stilleri */
+.mainRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Sağ bölümdeki üst çocuk bölümü */
+.mainRight_top_child {
+    display: flex;
+    padding: 20px;
+}
+
+/* Sağ bölümdeki üst çocuk bölümündeki metin kısmı */
+.mainRight_top_child_text {
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+/* Sağ bölümdeki üst çocuk bölümündeki başlık (h4) */
+.mainRight_top_child_text h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Sağ bölümdeki üst çocuk bölümündeki paragraf (p) */
+.mainRight_top_child_text p {
+    font-size: 12px;
+}
+
+/* Sağ bölümdeki üst çocuk bölümündeki resim */
+.mainRight_top_child img {
+    height: 25px;
+    padding: 0px 40px;
+}
+
+/* Sağ bölümdeki alt bölüm */
+.mainRight_bottom {
+    display: flex;
+    justify-content: center;
+}
+
+/* İkonlar için ortak stil */
+.Icon {
+    font-size: 30px;
+    margin: 13px;
+    color: #484f56;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+/* Telefon ikonu için özel stil */
+.callIcon {
+    font-size: 70px;
+    color: #484f56;
+}
+
+/* 1350px ekran genişliğinden küçük ekran boyutları için medya sorgusu */
+@media screen and (max-width:1350px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Sol bölümdeki ilk bölümün üst kısmını gizle */
+    .mainLeft_first_top {
+        display: none;
+    }
+
+    /* Sol bölümün genel stil ayarı */
+    .mainLeft {
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    /* Sağ bölümdeki üst çocuk bölümünün stil ayarı */
+    .mainRight_top_child {
+        display: flex;
+        justify-content: center;
+        padding-top: 0px;   
+        padding-bottom: 40px;
+    }
+
+    /* Sağ bölümdeki üst çocuk bölümündeki metin kısmının stil ayarı */
+    .mainRight_top_child_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Sol bölümdeki ikinci bölümü gizle */
+    .mainLeft_second {
+        display: none;
+    }
+    
+    /* Telefon ikonunu gizle */
+    .callIcon {
+        display: none;
+    }
+}
