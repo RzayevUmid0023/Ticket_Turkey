@@ -33,7 +33,7 @@
 
 .Ticket{
     max-width: 1400px;
-    height: 600px;
+    height: auto;
     margin: auto;
     margin-top: 50px !important;
     margin: 0px 20px;
