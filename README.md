@@ -1,8 +1,29 @@
-# React + Vite
+### Ticket Turkey Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+*Visit Website : https://ticketurkey.netlify.app/*
+*Technologies used: React, Css*
 
-Currently, two official plugins are available:
+- Blur designed navbar and dynamically changing slide.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Photo](https://i.ibb.co/fNrX7rb/Screenshot-2024-04-08-113029.png)
+
+
+- Box section with the most popular concerts
+
+![Photo](https://i.ibb.co/Km7x9w9/Screenshot-2024-04-08-113256.png)
+
+
+- Detailed footer section
+
+![Photo](https://i.ibb.co/0fGs2FD/Screenshot-2024-04-08-113441.png)
+
+
+- Video slide and dynamic tickets in the concerts section
+
+![Photo](https://i.ibb.co/pWp34d7/Screenshot-2024-04-08-113627.png)
+
+
+- and ticket sales and dates page
+
+![Photo](https://i.ibb.co/QNTTswB/Screenshot-2024-04-08-114006.png)
+![Photo](https://i.ibb.co/zFDmq7w/Screenshot-2024-04-08-114022.png)
